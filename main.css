@@ -16,6 +16,7 @@
 
 html {
   font-family: 'Share Tech Mono', monospace;
+  font-size: 62.5%;
   box-sizing: border-box;
   font-size: 12px;
   scroll-behavior: smooth;
@@ -1167,6 +1168,30 @@ textarea {
   .contact-right {
     border-bottom-left-radius: 16px;
     border-top-right-radius: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact-right p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .btn {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 315px) {
+  .btn {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .contact-right p {
+    font-size: 0.8rem;
   }
 }
 
