@@ -1023,6 +1023,7 @@ hr {
 
 .contact-card {
   display: flex;
+  min-width: 25rem;
   flex-direction: row;
   border-radius: 16px;
   box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
@@ -1035,6 +1036,7 @@ hr {
   /* border: 2px solid black; */
   width: 60%;
   padding: 1rem;
+  min-width: 25rem;
   /* background: #f9d74c;
   border-top-left-radius: 16px;
   border-bottom-left-radius: 16px; */
@@ -1055,6 +1057,7 @@ hr {
   /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
+  min-width: 25rem;
   width: 40%;
   padding: 1rem;
   background: #f9d74c;
@@ -1174,7 +1177,7 @@ textarea {
 
 @media only screen and (max-width: 400px) {
   .contact-right p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 }
 @media only screen and (max-width: 337px) {
