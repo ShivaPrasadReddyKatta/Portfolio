@@ -1053,12 +1053,13 @@ hr {
 
 .contact-right {
   /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
   width: 40%;
   padding: 1rem;
   background: #f9d74c;
   border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
-  word-wrap: break-word;
 }
 
 .form-in {
@@ -1191,12 +1192,6 @@ textarea {
 @media only screen and (max-width: 390px) {
   .btn {
     font-size: 1rem;
-  }
-}
-
-@media only screen and (max-width: 315px) {
-  .btn {
-    font-size: 0.7rem;
   }
 }
 
