@@ -1173,7 +1173,18 @@ textarea {
 
 @media only screen and (max-width: 400px) {
   .contact-right p {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 337px) {
+  .contact-right p {
     font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 347px) {
+  .contact-right h2 {
+    font-size: 1.5rem;
   }
 }
 
@@ -1186,12 +1197,6 @@ textarea {
 @media only screen and (max-width: 315px) {
   .btn {
     font-size: 0.7rem;
-  }
-}
-
-@media only screen and (max-width: 300px) {
-  .contact-right p {
-    font-size: 0.8rem;
   }
 }
 
