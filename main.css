@@ -595,6 +595,7 @@ nav {
   /* box-shadow: 33px 33px 66px #bcc0c6, -33px -33px 66px #ffffff; */
 }
 .about-title {
+  display: flex;
   align-self: flex-start;
   /* border: 2px solid #ff004d; */
 }
@@ -619,6 +620,7 @@ nav {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
+  min-width: 25rem;
   border-radius: 16px;
   padding-bottom: 2rem;
   padding-left: 2rem;
@@ -856,15 +858,17 @@ hr {
 }
 
 .card .det {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   height: 100%;
   width: 100%;
   padding: 2rem 2rem;
   /* display: flex; */
-  flex-direction: column;
+
   text-align: center;
   justify-content: space-between;
-  display: flex;
+
   /* transform: translateX(-100%); */
   visibility: hidden;
   /* transition: visibility 1s linear; */
@@ -1022,8 +1026,9 @@ hr {
 }
 
 .contact-card {
+  /* border: 2px solid black; */
   display: flex;
-  min-width: 25rem;
+  min-width: 20rem;
   flex-direction: row;
   border-radius: 16px;
   box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
@@ -1036,7 +1041,7 @@ hr {
   /* border: 2px solid black; */
   width: 60%;
   padding: 1rem;
-  min-width: 25rem;
+  min-width: 20rem;
   /* background: #f9d74c;
   border-top-left-radius: 16px;
   border-bottom-left-radius: 16px; */
@@ -1057,7 +1062,7 @@ hr {
   /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
-  min-width: 25rem;
+  min-width: 20rem;
   width: 40%;
   padding: 1rem;
   background: #f9d74c;
@@ -1167,6 +1172,7 @@ textarea {
   .contact-right,
   .contact-left {
     width: 100%;
+    /* margin: 10%; */
   }
 
   .contact-right {
@@ -1180,7 +1186,17 @@ textarea {
     font-size: 1.3rem;
   }
 }
-@media only screen and (max-width: 337px) {
+@media only screen and (max-width: 357px) {
+  .contact-right p {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 335px) {
+  .contact-right p {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 313px) {
   .contact-right p {
     font-size: 1rem;
   }
@@ -1211,6 +1227,7 @@ footer {
 
 .footer-up {
   display: flex;
+  min-width: 20rem;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -1226,7 +1243,10 @@ footer {
 }
 
 .footer-bottom {
+  display: flex;
+  flex-direction: column;
   padding: 2rem 0;
+  min-width: 20rem;
   text-align: center;
   word-wrap: break-word;
   line-height: 3rem;
