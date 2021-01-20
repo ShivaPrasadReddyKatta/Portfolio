@@ -937,16 +937,21 @@ hr {
 }
 
 .card:nth-child(3) .pic {
-  background-image: url('images/sentiment.svg');
+  background-image: url('images/polls.svg');
   background-color: #f9d74c;
 }
 
 .card:nth-child(4) .pic {
+  background-image: url('images/sentiment.svg');
+  background-color: #f9d74c;
+}
+
+.card:nth-child(5) .pic {
   background-image: url('images/todo.svg');
   background-color: #f97b8b;
 }
 
-.card:nth-child(5) .pic {
+.card:nth-child(6) .pic {
   background-image: url('images/game.svg');
   background-color: #3498db;
 }
