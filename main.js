@@ -14,7 +14,7 @@ window.addEventListener('scroll', function () {
   }
 });
 
-const texts = [`Hi, I'm Shiva Prasad Reddy.`, 'Welcome to my Portfolio!'];
+const texts = [`Hi, I'm Shiva.`, 'Welcome to my Portfolio!'];
 let count = 0;
 let ind = 0;
 let currentText = '';
